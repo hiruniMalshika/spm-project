@@ -1,4 +1,4 @@
-import React, {useContext, useState} from 'react'
+import React, {useContext} from 'react'
 import {GlobalState} from '../../../Globalstate'
 import {Table,
         TableBody,
@@ -14,7 +14,7 @@ import {Table,
         } from '@material-ui/core';
 import DeleteIcon from '@material-ui/icons/Delete';
 import ShopIcon from '@mui/icons-material/Shop';
-import EditIcon from '@material-ui/icons/Edit';
+
 import Loading from '../../Pages/Utils/Loading/Loading';
 import { Link } from 'react-router-dom';
 import axios from 'axios'
@@ -70,12 +70,11 @@ function CSOrdersList() {
 
     const state = useContext(GlobalState)
     const [csorders] = state.csordersAPI.csorders
-    const [setLoading] = useState(false)
+    
     const [callback, setCallback] = state.csordersAPI.callback
     const [token] = state.token
     const classes = useStyles();
-    const [onEdit, setOnEdit] = useState(false)
-    const [status, setStatus] = useState([])
+    
     console.log(state)
 
     const deleteorder = async(id) =>{
@@ -97,19 +96,8 @@ function CSOrdersList() {
       }
     }
 
-    const handleChangeInput = (status) =>{
-
-     
-      setStatus(status);
-  
-    }
-   const updateOrder = async(id) =>{
    
-      setOnEdit(true)
-      await axios.put(`/api/csorder/${csorders._id}`, {status});
-      alert("Order updated successfully")
-       
-   }
+   
     return (
     
     <div class="orders-list-cs">
