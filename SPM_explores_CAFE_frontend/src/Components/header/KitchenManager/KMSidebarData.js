@@ -10,7 +10,7 @@ import * as BsIcons from 'react-icons/bs'
 export const SidebarData = [
     {
         title: 'Dashboard',
-        path: '/',
+        path: '/kitchendashboard',
         icon: <RiIcons.RiDashboardLine />
     },
     {
@@ -31,22 +31,7 @@ export const SidebarData = [
                 icon: <BsIcons.BsPeopleFill />,
             },
         ]
-    },     
-    // {
-    //     title: 'Ready To Pickup Orders',
-    //     path: '/readytopickuporders',
-    //     icon: <FaIcons.FaClipboardList />
-    // },
-    /*{
-        title: 'Confirmed Orders',
-        path: '/confirmedorders',
-        icon: <FiIcons.FiCheck />
-    },
-    {
-        title: 'Rejected Orders',
-        path: '/rejectedorders',
-        icon: <AiIcons.AiOutlineStop />
-    },  */
+    },    
     {
         title: 'Reports',
         icon: <IoIcons.IoIosPaper />,
@@ -54,7 +39,11 @@ export const SidebarData = [
         iconOpened: <RiIcons.RiArrowUpSFill />,
         path: '#',
         subNav: [
-             
+            {
+                title: 'Category Reports',
+                path: '/reports/reports1',
+                icon: <IoIcons.IoIosPaper />,
+            },
             {
                 title: 'Foods Reports',
                 path: '/reports/reports2',

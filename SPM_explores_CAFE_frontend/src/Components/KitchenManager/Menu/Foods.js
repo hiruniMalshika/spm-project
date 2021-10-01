@@ -2,6 +2,7 @@ import React, {useContext} from 'react'
 import * as IoIcons5 from 'react-icons/io5'
 import { GlobalState } from '../GlobalStateKM'
 import FoodItem from '../item/FoodItem'
+import Filters from './Filters'
 
 function Foods() {
     const state = useContext(GlobalState)
@@ -25,6 +26,8 @@ function Foods() {
             </div>
              
             <hr />
+
+            <Filters /> 
             <div className="foods">
 
                 <div className="foodslist">

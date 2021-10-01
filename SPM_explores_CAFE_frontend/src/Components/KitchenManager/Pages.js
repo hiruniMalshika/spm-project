@@ -12,7 +12,7 @@ import KMListC from '../KitchenManager/category/view/KMListC'
 import KMViewDailyMenu from '../KitchenManager/Daily_Menu/KMViewDailyMenu'
 import OrderListkm from '../KitchenManager/dashboard/OrderListkm'
 import FoodsReportKM from '../KitchenManager/Reports/FoodsReportKM'
-
+import CategoryReport from '../KitchenManager/Reports/CategoryReport'
 
 
  
@@ -43,7 +43,8 @@ function Pages(){
 
             <Route path="/reports/reports2" exact component={FoodsReportKM}/>
 
-             
+            <Route path="/reports/reports1" exact component={CategoryReport}/>
+
              
         </Switch>
     )

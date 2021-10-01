@@ -1,4 +1,11 @@
- 
+.test{
+    font-size: 4.5em;
+    padding-left: 10px;
+    padding-top: 10px;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+}
 .customer-table table{
     margin-top: 30px;
     width: 80%;
@@ -14,4 +21,52 @@
     color: white;
     border: 1px solid white;
     height: 40px;
+}
+
+ 
+
+.second-group1{
+    display: flex;
+    background-color: #48D1CC;
+    justify-content: space-between;
+    width: 98.5%;
+    height: 300px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.second-group-first-box1{
+    width: 40%;
+    background-color: 	#6495ED;
+    margin: 20px 5%;
+}
+
+.second-group-second-box1{
+    width: 40%;
+    background-color: 	#6495ED;
+    margin: 20px 5%;
+}
+
+.second-group1 h4{
+    background-color: rgb(224, 224, 224);
+    margin: 15px;
+    height: 40px;
+    padding: 10px;
+    text-align: center;
+}
+
+.second-group1 h3{
+    background-color: #48D1CC;
+    margin: 15px;
+    margin-top: 50px;
+    height: 80px;
+    font-size: 30px;
+    padding: 10px;
+    text-align: center;
+    padding-top: 40px;
+}
+
+#btn_neworder{
+    background: #48D1CC; 
+    color: white;
+     
 }

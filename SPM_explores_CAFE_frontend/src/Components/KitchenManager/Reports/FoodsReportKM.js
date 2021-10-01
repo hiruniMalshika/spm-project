@@ -1,5 +1,5 @@
 import React , { useContext, useRef}from 'react'
-import { GlobalState } from  '../../../Globalstate'
+import { GlobalState } from  '../GlobalStateKM'
 import * as IoIcons5 from 'react-icons/io5'
 import '../Reports/foodsReport.css'
 import { PDFExport, savePDF } from "@progress/kendo-react-pdf";
@@ -19,8 +19,8 @@ function FoodsReportKM() {
      return (
         <div>
             <div className="foodIcon">
-                <div className="icon">
-                    <IoIcons5.IoFastFood />
+                <div className="icon"> 
+                    <IoIcons5.IoFastFoodOutline/>
                     FOODS ITEMS 
                 </div>    
             </div>

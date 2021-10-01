@@ -22,8 +22,10 @@ function DailyMenuItem({menu, callback, setCallback}) {
         <div className="dailymenu_card" >
             <div className="dailymenu_box">
                     <h2 name={menu.menu_name}>{menu.menu_name}</h2>
-                    <span>Date{menu.date}</span>
-                    <p>{menu.foods}</p> 
+                    
+                    <p>{menu.foods}</p>
+                     
+                    <span1>Date : {menu.date}</span1>
             </div> 
 
             <div className="row_btn">

@@ -65,7 +65,7 @@ function CreateDailyMenu() {
         <div>
             <div className="foodIcon">
                 <IoIcons5.IoFastFood />
-                <h4>Add Foods</h4>
+                <h4>Today Special</h4>
             </div>
             <hr />
             <div className="create_daily">
