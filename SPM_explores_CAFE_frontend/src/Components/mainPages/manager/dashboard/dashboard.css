@@ -1,0 +1,102 @@
+.home_icon{
+    font-size: 4.5em;
+    padding-left: 10px;
+    padding-top: 19px;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+}
+.home_icon h4{
+    font-size: 28px;
+    padding-top: 35px;
+    padding-left: 10px;
+    
+}
+/*.first-grid{
+    width: 40%;
+    background-color: blue;
+    margin-left: 7.5%;
+    text-align: center;
+}
+.first-grid h2{
+    background-color: gray;
+    margin: 12px 12px;
+}
+.second-grid{
+    width: 40%;
+    background-color: crimson;
+    margin-left: 5%;
+}*/
+.main-grid{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    width: 100%;
+}
+.first-grid{
+    width: 600px;
+    margin-left: 70px;
+    margin-right: 120px;
+}
+.first-grid h2{
+    background-color: rgb(105, 105, 105);
+    margin: 6px 0;
+    color: white;
+}
+.second-grid{
+    width: 600px;
+}
+.second-grid h2{
+    background-color: rgb(105, 105, 105);
+    margin: 6px 0;
+    color: white;
+}
+.main-box{
+    margin: 60px 400px;
+}
+
+/*----------------------second-group----------------------*/
+.second-group{
+    display: flex;
+    background-color: rgb(224, 224, 224);
+    justify-content: space-between;
+    width: 98.5%;
+    height: 300px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.second-group-first-box{
+    width: 40%;
+    background-color: white;
+    margin: 20px 5%;
+}
+.second-group-second-box{
+    width: 40%;
+    background-color: white;
+    margin: 20px 5%;
+}
+.second-group h4{
+    background-color: rgb(224, 224, 224);
+    margin: 15px;
+    height: 40px;
+    padding: 10px;
+    text-align: center;
+}
+
+/*----------------------third-group----------------------*/
+.third-group{
+    background-color: rgb(224, 224, 224);
+    justify-content: space-between;
+    width: 98.5%;
+    min-height: 300px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.third-group h2{
+    background-color: rgb(255, 255, 255);
+    margin: 15px;
+    width: 100%;
+    height: 47px;
+    padding: 10px;
+    text-align: center;
+}

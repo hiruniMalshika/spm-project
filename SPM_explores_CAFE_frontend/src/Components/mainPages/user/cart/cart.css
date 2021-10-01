@@ -1,0 +1,87 @@
+.cart{
+    position: relative;
+    border:1px solid #ccc;
+    transform: scaleY(0.98);
+}
+
+.amount span{
+    color: crimson;
+    padding: 0 20px;
+}
+
+.amount button{
+    width:40px;
+    height: 40px;
+    border: 1px solid #777;
+}
+
+.delete{
+    position: absolute;
+    top:0;
+    right:5px;
+    font-weight: 900;
+    color: crimson;
+}
+
+
+
+.box-cart{
+    max-width: 500px;
+    width: 100%;
+    margin: 5px 20px;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.box-cart h2{
+    text-transform: uppercase;
+    color:red;
+    letter-spacing: 2px;
+    font-weight: 2rem;
+}
+
+.box-cart p{
+    line-height: 1.5;
+    margin: 5px 0;
+    opacity: 0.8;
+    color: black;
+}
+
+.total{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 500px;
+    border: 2px solid rgb(4, 155, 245);
+    border-radius: 5px;
+    padding:30px;
+    margin:50px auto;
+    margin-top: 10px;
+    box-shadow: 5px 10px rgb(4, 155, 245);
+}
+
+.total h3{
+    color: red;
+    border-radius: 25px;
+    border-color:red;
+    
+}
+
+.placeLink{
+    border: 2px solid rgb(#ee142b, #29050e);
+    border-radius: 4px;
+    
+    padding:10px;
+    margin:50px auto;
+    margin-top: 50px;
+    height: -70px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    color:white;
+    margin-left: 90px;
+    background-image: linear-gradient(#ee142b, #29050e);
+    
+}

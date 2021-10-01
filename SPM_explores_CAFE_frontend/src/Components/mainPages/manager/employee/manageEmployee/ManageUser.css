@@ -1,0 +1,52 @@
+.emp-manage-page{
+    overflow-x: auto;
+}
+.emp-manage-page h4{
+    text-align: center;
+    margin: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+}
+.emp-manage-page table{
+    margin: auto;
+    width: 100%;
+}
+.emp-manage-page table, th, tr, td{
+    border: 1px solid #ddd;
+    border-collapse: collapse;
+}
+.emp-manage-page table th, td{
+    text-align: center;
+    padding: 10px;
+    text-transform: capitalize;
+}
+.emp-manage-page table th{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    height: 50px;
+}
+table a{
+    color: rgb(3, 165, 206);
+}
+
+/*---------------------------------Filter menu-------------------------------------*/
+.filter_menu{
+    width: 100%;
+    min-height: 40px;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 15px 0;
+}
+.filter_menu input{
+    border: 1px solid rgb(230, 61, 61);
+    padding: 0 10px;
+    outline: none;
+    height: 40px;
+   
+}
+.filter_menu input{
+    width: 25%;
+}

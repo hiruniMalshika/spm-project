@@ -1,0 +1,19 @@
+.customer-table{
+    
+}
+.customer-table table{
+    margin-top: 30px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.customer-table table, th, tr, td{
+    border: 1px solid rgb(2, 0, 0);
+    border-collapse: collapse;
+}
+.customer-table table th{
+    background-color: rgb(85, 85, 85);
+    color: white;
+    border: 1px solid white;
+    height: 40px;
+}

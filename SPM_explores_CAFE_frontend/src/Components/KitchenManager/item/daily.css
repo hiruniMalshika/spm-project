@@ -1,0 +1,42 @@
+.dailymenu_card {
+    max-width: 300px;
+    min-width: 300px;
+    overflow: hidden;
+    height: 350px;
+    background-color: rgb(243, 220, 189);
+    box-shadow: 0 0 15px rgb(199, 114, 114);
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px;
+    position: relative;
+    text-decoration: none;
+    list-style: none;  
+}
+
+.dailymenu_card h2{
+    width: 100%;
+    font-size: 30px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    text-transform: capitalize;
+    cursor: pointer;
+    color: #323232;
+}
+.dailymenu_card span{
+    color: rgb(31, 6, 255);
+    font-size: 24px;
+    
+     
+}
+
+.dailymenu_card p{
+    width: 100%;
+    font-size: 24px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    height: 60px;
+    overflow: hidden;
+    color: #000000;
+}

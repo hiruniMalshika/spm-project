@@ -1,0 +1,55 @@
+.empIcon{
+    font-size: 4.5em;
+    padding-left: 10px;
+    padding-top: 19px;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+}
+.empIcon h4{
+    font-size: 28px;
+    padding-top: 35px;
+    padding-left: 10px;
+   
+}
+.form_emp{
+    margin-top: 80px;
+    margin-left: 73px;
+    padding-top: 100px;
+    background-color: rgb(253, 253, 252);
+    box-shadow: none;
+}
+.form_emp h2{
+    background-color: rgb(187, 192, 197);
+    letter-spacing: 1px;
+    text-align: center;
+    padding-top: 5px;
+}
+.form_emp input{
+    width: 300px;
+    height: 30px;
+    padding-left: 10px;
+}
+.form_emp select{
+    width: 300px;
+    height: 30px;
+}
+.photoButton{
+    width: 300px;
+    height: 30px;
+    background-color: rgb(90, 90, 104);
+    color: white;
+    font-size: 18px;
+    border: none;
+    outline: none;
+}
+.addEmp{
+    width: 300px;
+    height: 40px;
+    margin-top: 70px;
+    margin-bottom: 17px;
+    text-transform: capitalize;
+    background: rgb(3, 165, 206);
+    color: white;
+    letter-spacing: 2px;
+}

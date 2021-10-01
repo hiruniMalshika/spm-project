@@ -1,0 +1,25 @@
+.foodIcon{
+    font-size: 4.5em;
+    padding-left: 10px;
+    padding-top: 13px;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+}
+.foodIcon h4{
+    font-size: 28px;
+    padding-top: 39px;
+    padding-left: 10px;
+}
+.categorys{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    justify-items: center;
+    margin: 20px, 0;
+    
+}
+
+
+/*--------------------- category item --------------------------*/
+@import url("./kmitemc.css");

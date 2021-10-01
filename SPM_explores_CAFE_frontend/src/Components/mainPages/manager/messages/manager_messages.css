@@ -1,0 +1,33 @@
+.full-message-list-page{
+    background-color: rgb(233, 233, 233);
+    padding: 20px 20px;
+    margin-top: 10px;
+}
+.full-message-list-page h3{
+    background-color: white;
+    padding-left: 40%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 20px;
+    box-shadow: 0 0 35px rgb(116, 116, 116);
+}
+.full-message-list-page h4{
+    background-color: white;
+    padding-left: 40%;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-size: 17px;
+}
+.message-page-mainGrid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 50px 0;
+}
+.message-page-mainGrid table th{
+    height: 50px;
+    background-color: white;
+}
+.message-page-mainGrid table td{
+    background-color: white;
+}

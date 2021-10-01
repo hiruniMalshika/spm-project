@@ -1,0 +1,71 @@
+.login-page-user{
+    max-width: 500px;
+    border: 2px solid rgb(4, 155, 245);
+    border-radius: 25px;
+    padding:30px;
+    margin:50px auto;
+    background-image: radial-gradient(#c94b4b, #4b134f);
+    
+}
+
+.login-page-user h2{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color:white;
+}
+.list{
+    max-width: 300px;
+    border: 2px solid rgb(4, 155, 245);
+    border-radius: 3px;
+    padding:20px;
+    margin:30px auto;
+
+}
+.login-page-user form input,
+.login-page-user form button{
+    width: 100%;
+    height: 40px;
+    margin: 10px 0;
+    padding: 0 5px;
+    outline: rgb(4, 155, 246);
+    border:white;
+    margin-top: 25px;
+    border-radius: 25px;
+    box-shadow: 5px 10px rgb(10, 17, 20);
+   
+}
+.login-page-user form .row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 8px;
+}
+
+.login-page-user form button{
+    width: 150px;
+    background-image: linear-gradient(#0f0c29, #302b63, #24243e);
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 50px;
+}
+.login-page-user form a{
+    color: white;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-top: 47px;
+
+}
+
+.loginImage{
+    margin-top: -260px;
+    width: 350px;
+    margin-left: 865px;
+}
+
+.regImage{
+    margin-top: -260px;
+    width: 350px;
+    margin-left: 865px;
+}

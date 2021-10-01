@@ -1,0 +1,71 @@
+.viewOrder{
+    width: fit-content;
+    margin-left: 50px;
+}
+.cusDetails .row{
+   display: flex;
+}
+.cusDetails .col1{
+   margin-top: 50px;
+   margin-left: 40px;
+}
+.cusDetails .col2{
+    margin-top: 50px;
+    margin-left: 670px;
+}
+.col2 .totalTop{
+    color: rgb(8, 8, 119);
+}
+.titleReceipt{
+  text-align: center;
+  background-color: rgb(62, 67, 77);
+  color: rgb(230, 235, 240);
+}
+.bottomTotal{
+    margin-left: 770px;
+    margin-top: 30px;
+}
+.bottomrow{
+    display: flex;
+}
+.addPaymentBtn{
+    margin-left: 20px;
+    margin-top: 30px;
+    width: 250px;
+    height: 30px;
+    background-color: blue;
+    color: white;
+    border-radius: 20px;
+}
+.printbutton{
+    margin-left: 60px;
+    margin-top: 30px;
+    width: 250px;
+    height: 30px;
+    background-color: blue;
+    color: white;
+    border-radius: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

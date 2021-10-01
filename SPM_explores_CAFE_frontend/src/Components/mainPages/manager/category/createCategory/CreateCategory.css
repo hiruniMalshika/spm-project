@@ -1,0 +1,114 @@
+.foodIcon{
+    font-size: 4.5em;
+    padding-left: 10px;
+    padding-top: 13px;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+}
+.foodIcon h4{
+    font-size: 28px;
+    padding-top: 39px;
+    padding-left: 10px;
+    
+}
+.form-row select{
+    margin-top: 4px;
+    width: 500px;
+    height: 40px;
+}
+.form-row label{
+    font-size: 25px;
+}
+.create_category{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.upload{
+    max-width: 450px;
+    height: 500px;
+    width: 100%;
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin: 20px;
+    position: relative;
+}
+#file_up{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    outline: none;
+}
+#file_up::before{
+    content: "+";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: white;
+    color: rgb(250, 200, 107);
+    font-size: 17rem;
+    text-align: center;
+    cursor: pointer;
+    margin: auto;
+}
+#file_img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: white;
+}
+#file_img img{
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+}
+#file_img span{
+    position: absolute;
+    top: -13px;
+    right: -13px;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    padding: 6px 10px;
+    cursor: pointer;
+    font-weight: 900;
+    color: crimson;
+}
+.create_category form{
+    max-width: 500px;
+    max-height: 290px;
+    width: 100%;
+    margin: 15px 30px;
+}
+
+.create_category form input, textarea{
+    width: 100%;
+    min-height: 40px;
+    padding: 0 5px;
+}
+.create_category form button{
+    width: 200px;
+    height: 40px;
+    background: #555;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+.main-form{
+    background-color: rgb(199, 199, 199);
+    height: 500px;
+    padding-top: 90px;
+    box-shadow: 0 0 35px rgb(116, 116, 116);
+    
+}

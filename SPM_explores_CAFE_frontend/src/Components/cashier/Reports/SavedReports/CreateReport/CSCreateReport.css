@@ -1,0 +1,47 @@
+.createReport{
+    width: 1000px;
+    padding-top: 55px;
+    background-color: white;
+    padding-bottom: 30px;
+    margin-left: 50px;
+}
+.createReport h1{
+    text-align: center;
+    font-family: 'Courier New', monospace;
+    font-size: 40px;
+    background-color: rgb(168, 168, 168);
+    padding: 2px 2px;
+}
+.createReport input[type=Number] {
+    width: 80%;
+    height: 40px;
+    padding-left: 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    font-size: 20px;
+  }
+
+.createReport .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+  }
+.createReport .grid-item {
+    padding: 20px;
+    font-size: 15px;
+    text-align: center;
+  }
+.createReport .grid-container button{
+    width: 200px;
+    height: 30px;
+    block-size: 35px;
+    text-transform: uppercase;
+    background-color: rgb(2, 21, 29);
+    margin-bottom: 20px;
+    color: lemonchiffon;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}

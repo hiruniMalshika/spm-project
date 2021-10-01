@@ -1,0 +1,44 @@
+.foods{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    justify-items: center;
+    margin: 1px 0;
+}
+
+
+.filter_menu{
+   width: 100%;
+   min-height: 80px;
+   overflow: hidden;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+ 
+   margin: 15px 0;
+   margin-bottom: -1px;
+}
+
+.filter_menu select, input{
+    border: 1px solid #ccc;
+    outline: none;
+    height: 40px;
+    padding: 0 5px;
+    width: 10px;
+}
+
+.filter_menu input{
+    flex: 1;
+    margin-top: 10px;
+    margin-left: 600px;
+    width: 550px;
+}
+
+.row{
+    margin-top: -50px;
+    margin-left: 10px;
+   
+  
+}
+
+@import url("../menu/foodItem/foodItem.css");

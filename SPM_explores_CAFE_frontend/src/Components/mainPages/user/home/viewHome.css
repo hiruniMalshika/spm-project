@@ -1,0 +1,179 @@
+.homecontainer{
+    margin-top: 50px;
+    margin-left: 120px;
+    
+}
+.boxes{
+    margin-top: 300px;
+}
+.callbox{
+    width: 400px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    background-color:  linear-gradient(#c94b4b, #4b134f);;
+    margin-top: 50px;
+    color: black;
+    padding: 90px 80px 50px 20px;
+    box-shadow: 5px 10px rgb(4, 155, 245);
+}
+
+.addressBox{
+    width: 400px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    height: 50px;
+    overflow: hidden;
+    color: black;
+    background-image: linear-gradient(#c94b4b, #4b134f);
+    margin-right: 270px;
+    margin-left: -250px;
+    border-style: outset;
+    margin-top: 135px;
+    border-radius: 25px;
+    box-shadow: 5px 10px rgb(4, 155, 245);
+}
+
+.addressBox h2{
+    /* width: 100%; */
+    height: 280px;
+   
+    margin-top: -40px;
+    font-size: 28px;
+    margin-left: 13px;
+}
+
+.addressBox p{
+    width: 100%;
+    height: 280px;
+    
+    margin-top: 2px;
+    font-size: 20px;
+}
+
+.mailBox{
+    width: 300px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    height: 70px;
+    overflow: hidden;
+    color: black;
+    background-image: linear-gradient(#c94b4b, #4b134f);
+    margin-top: -145px;
+    margin-left: 160px;
+    margin-right: 50px;
+    padding: 90px 80px 50px 20px;
+    border-style: outset;
+    border-radius: 25px;
+    box-shadow: 5px 10px rgb(4, 155, 245);
+}
+
+.mailBox h2{
+    width: 100%;
+    
+    height: 280px;
+
+    margin-top: -40px;
+    color: aliceblue;
+}
+
+.mailBox p{
+    width: 100%;
+    height: 280px;
+  
+    margin-top: 2px;
+    font-size: 18px;
+}
+
+.roadBox{
+    width: 380px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    height: 70px;
+    overflow: hidden;
+    color: red;
+    background-image: linear-gradient(#c94b4b, #4b134f);
+    margin-top: -145px;
+    margin-left: 480px;
+    margin-right: 50px;
+    padding: 90px 80px 50px 20px;
+    border-style: outset;
+    border-radius: 25px;
+    box-shadow: 5px 10px rgb(4, 155, 245);
+}
+
+.roadBox h2{
+    width: 100%;
+    
+    height: 480px;
+  
+    margin-top: -60px;
+    color: black;
+    font-size: 28px;
+}
+
+.roadBox p{
+    width: 100%;
+    height: 280px;
+ 
+    margin-top: 2px;
+    font-size: 18px;
+}
+
+.mission{
+    width: 1180px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    height: 240px;
+    overflow: hidden;
+    background-image: linear-gradient(#c94b4b, #4b134f);
+    background-color: rgb(7, 7, 7);
+    margin-top: 55px;
+    margin-left: -300px;
+    margin-right: 500px;
+    padding: 90px 80px 50px 20px;
+    border-style: outset;
+    animation: forwards;
+    animation-duration: 4s;
+    box-shadow: 10px 10px;
+    border-radius: 45px;
+}
+
+.mission h2{
+    width: 100%;
+    
+    height: 180px;
+    background-color: rgb(255, 251, 251);
+    margin-top: -60px;
+    color: black;
+    font-size: 28px;
+    border-radius: 25px;
+    margin-left: 8px;
+    background-image:-moz-repeating-radial-gradient(white, red);
+    
+}
+
+.mission p{
+    width: 100%;
+    height: 280px;
+    margin-top: 2px;
+    font-size: 28px;
+    font-style: initial;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    animation:alternate-reverse;
+    text-shadow: 2px 2px 5px red;
+}
+.missiondescription{
+    margin-top: 500px;
+    width: 100%;
+    height: 280px;
+    font-size: 28px;
+    font-style: initial;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    animation:alternate-reverse;
+    text-shadow: 2px 2px 5px red;
+}

@@ -1,0 +1,98 @@
+* {
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.mainPages{
+ 
+  padding-left: 310px;
+  margin-right: 16px;
+}
+
+/*--------------------- Category List - manager --------------------------*/
+@import url("./Components/mainPages/manager/category/categoryView/categoryList.css");
+
+/*--------------------- Employee - manager --------------------------*/
+@import url("./Components/mainPages/manager/employee/addNewEmployee//employee.css");
+
+/*--------------------- login - employee --------------------------*/
+@import url("./Components//login/loginEmployee.css");
+
+/*--------------------- create category - Manager --------------------------*/
+@import url("./Components//mainPages/manager/category/createCategory/CreateCategory.css");
+
+/*--------------------- manage - employee --------------------------*/
+@import url("./Components/mainPages/manager/employee/manageEmployee/ManageUser.css");
+
+/*--------------------- dashboard - manager --------------------------*/
+@import url("./Components//mainPages/manager/dashboard/dashboard.css");
+
+/*--------------------- customer feedbacks view - manager --------------------------*/
+@import url("./Components//mainPages/manager/messages/manager_messages.css");
+
+/*--------------------- customer list - manager --------------------------*/
+@import url("./Components//mainPages/manager/customers/customerList.css");
+
+/*--------------------- Reply message form - manager --------------------------*/
+@import url("./Components//mainPages/manager/messages/reply/replyMessage.css");
+
+/*--------------------- monthlyPayment - manager --------------------------*/
+@import url("./Components//mainPages/manager/employee/manageEmployee/addPayments/monthlyPayment.css");
+
+/*--------------------- monthlyPayment - manager --------------------------*/
+@import url("./Components//mainPages/manager/category/foodMenu/foodMenuTable.css");
+
+
+
+/*--------------------- view Foods  List --------------------------*/
+@import url("./Components/KitchenManager/Menu/foods.css");
+
+
+/*--------------------- Detail Food --------------------------*/
+@import url("./Components/KitchenManager/Details/detailProducts.css");
+
+/*--------------------- Detail Category --------------------------*/
+@import url("./Components/KitchenManager/Details/detailCategoryKM.css");
+
+/*--------------------- Add Food --------------------------*/
+@import url("./Components/KitchenManager/Menu/addFoods.css");
+
+/*--------------------- Add Messages --------------------------*/
+@import url("./Components/KitchenManager/Meesages/addMessagesKM.css");
+
+/*--------------------- view Category  List --------------------------*/
+@import url("./Components/KitchenManager/category/view/kmlistc.css");
+
+/*--------------------- Daily Menu --------------------------*/
+@import url("./Components/KitchenManager/Daily_Menu/dailyMenu.css");
+
+/*--------------------- CustomerList Dashboard --------------------------*/
+@import url("./Components/KitchenManager/dashboard/dashboard.css");
+
+
+
+@import url("./Components/mainPages/user/menu/menu.css");
+
+@import url("./Components/mainPages/user/detailProduct/detailProduct.css");
+
+@import url("./Components/mainPages/user/cart/cart.css");
+
+@import url("./Components/mainPages/user/staff/staff.css");
+
+@import url("./Components/mainPages/user/home/imageSlider.css");
+
+@import url("./Components/mainPages/user/home/viewHome.css");
+
+@import url("./Components/KitchenManager/Menu/addFoods.css");
+
+@import url("./Components/mainPages/user/auth/loginU.css");

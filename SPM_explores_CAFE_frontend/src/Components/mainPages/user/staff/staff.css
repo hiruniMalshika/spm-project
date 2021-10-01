@@ -1,0 +1,130 @@
+.staffImages{
+    height: 220px;
+    width: 200px;
+    padding: 20px;
+    border: 2px solid rgb(#ee142b, #29050e);
+    background-image: linear-gradient(#c94b4b, #4b134f);
+    border-radius: 25px;
+    margin-left: 50px;
+    margin-top: 40px;
+    box-shadow: 5px 10px rgb(4, 155, 245);
+}
+
+.ulcheck{
+    display: inline;
+}
+
+.teamTxt{
+    font-size: 30px;
+    text-transform: uppercase;
+    color:black;
+    letter-spacing: 2px;
+    font-weight: 2rem;
+    text-align: center;
+    margin-left: 54px;
+    margin-top: 70px;
+    text-decoration: dotted;
+}
+
+.teamTxt2{
+    font-size: 40px;
+    text-transform: uppercase;
+    color:red;
+    letter-spacing: 2px;
+    font-weight: 2rem;
+    text-align: center;
+    margin-left: 10px;
+    margin-top: 30px;
+}
+
+.managerLink{
+    border: 2px solid rgb(#ee142b, #29050e);
+    width: 300px;
+    padding:20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin:50px auto;
+    margin-top: 58px;
+    height: 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    color:white;
+    margin-left: 300px;
+    background-image: linear-gradient(#ee142b, #29050e);
+    border-radius: 25px;
+    box-shadow: 5px 10px rgb(4, 155, 245);
+    
+}
+
+.managerLink h2{
+    color: aliceblue;
+    margin-top: -20px;
+    margin-left: 39px;
+    text-decoration: none;
+}
+
+.kmanagerLink{
+    border: 2px solid rgb(#ee142b, #29050e);
+    width: 300px;
+    
+    padding:20px;
+    padding-left: 25px;
+    padding-right: 20px;
+    margin:50px auto;
+    margin-top: 15px;
+    height: 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    color:white;
+    margin-left: 300px;
+    background-image: linear-gradient(#ee142b, #29050e);
+    border-radius: 25px;
+    box-shadow: 5px 10px rgb(4, 155, 245);
+}
+
+.kmanagerLink h2{
+    color: aliceblue;
+    margin-top: -20px;
+    margin-left: 20px;
+    text-decoration: none;
+    font-size: 20px;
+}
+.cashierLink{
+    border: 2px solid rgb(#ee142b, #29050e);
+    width: 300px;
+    padding:20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin:50px auto;
+    margin-top: 40px;
+    height: 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    color:white;
+    margin-left: 300px;
+    background-image: linear-gradient(#ee142b, #29050e);
+    border-radius: 25px;
+    box-shadow: 5px 10px rgb(4, 155, 245);
+    
+}
+
+.cashierLink h2{
+    color: aliceblue;
+    margin-top: -20px;
+    margin-left: 39px;
+    text-decoration: none;
+}
+
+.staffImages2{
+    height: 220px;
+    width: 400px;
+    padding: 20px;
+    border: 2px solid rgb(#ee142b, #29050e);
+    /* background-image: linear-gradient(#c94b4b, #4b134f); */
+    border-radius: 25px;
+    margin-left: 700px;
+    margin-top: -500px;
+}

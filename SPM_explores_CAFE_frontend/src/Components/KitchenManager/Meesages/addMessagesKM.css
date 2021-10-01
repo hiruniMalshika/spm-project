@@ -1,0 +1,43 @@
+.messageIcon{
+    font-size: 4.5em;
+    padding-left: 10px;
+    padding-top: 13px;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+}
+.row select{
+    margin-top: 10px;
+    width: 450px;
+    height: 40px;
+}
+
+.create_message form{
+    max-width: 500px;
+    max-height: 290px;
+    width: 100%;
+    margin-top: -250px;
+    
+    
+}
+.create_message form .row{
+    width: 100%;
+    margin: 15px 0;
+}
+.create_message form input, textarea{
+    width: 100%;
+    min-height: 40px;
+    padding: 0 5px;
+     
+}
+.create_message form button{
+    width: 200px;
+    height: 50px;
+    background: #1E90FF;
+    color: #000000;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 700;    
+    margin-top: 20px;
+    
+}

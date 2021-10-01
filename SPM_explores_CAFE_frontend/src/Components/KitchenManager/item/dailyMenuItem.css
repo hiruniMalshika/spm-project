@@ -1,0 +1,13 @@
+.dailymenu_card {
+    max-width: 300px;
+    min-width: 300px;
+    overflow: hidden;
+    height: 650px;
+    padding: 15px;
+    box-shadow: 0 0 15px rgb(199, 114, 114);
+    margin: 10px 10px;
+    position: relative;
+    background-color: rgb(243, 220, 189);
+    text-decoration: none;
+    list-style: none;
+}
